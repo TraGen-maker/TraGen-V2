@@ -1,0 +1,3 @@
+[build]
+  command = "unzip pocket-option-otc-analyzer.zip -d extracted && cd extracted/pocket-option-otc-analyzer && npm install && npm run build"
+  publish = "extracted/pocket-option-otc-analyzer/dist"
